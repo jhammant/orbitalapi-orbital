@@ -22,7 +22,7 @@
 
 </div>
 
-**Orbital is a data gateway that automates integration across your APIs, databases, and message queues — no glue code required.**
+**Orbital is the context layer for AI and apps: a governed layer over your APIs, databases and streams.** Agents and apps query it, and Orbital builds and maintains the integration, with no glue code.
 
 Powered by [Taxi](https://taxilang.org), Orbital reads your existing API specs (enriched with semantic metadata) and composes services on-the-fly, adapting automatically as they change. Think of it as data federation — a single API for all your sources — without having to shift to GraphQL.
 
@@ -31,6 +31,7 @@ Powered by [Taxi](https://taxilang.org), Orbital reads your existing API specs (
 ## Table of Contents
 
 -  [Quick Start](#quick-start)
+-  [What's new](#whats-new)
 -  [Why Orbital?](#why-orbital)
 -  [How does it work?](#how-does-it-work)
 -  [Supported Connectors](#supported-connectors)
@@ -52,6 +53,10 @@ The script will:
 - Detect your OS and download the right Docker Compose file
 - Start Orbital in the background
 - Open **[http://localhost:9022](http://localhost:9022)** in your browser
+
+## What's new
+
+[Orbital 0.39](https://orbitalhq.com/blog/2026-08-24-orbital-0-39-workspaces-copilot) added workspaces, Copilot and data validation. New releases are announced on the [blog](https://orbitalhq.com/blog).
 
 ## Why Orbital?
 
